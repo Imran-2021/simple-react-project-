@@ -16,18 +16,18 @@ const Navbar = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+      <ul  className="navbar-nav p-3  ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
           <NavLink activeClassName="menu_active" exact className="nav-link active"  to="/">Home</NavLink >
         </li>
         
         <li className="nav-item">
-          <NavLink activeClassName="menu_active" className="nav-link" to="services">services</NavLink>
+          <NavLink activeClassName="menu_active" className="nav-link active " to="services">services</NavLink>
         </li><li className="nav-item">
-          <NavLink activeClassName="menu_active" className="nav-link" to="about">about</NavLink >
+          <NavLink activeClassName="menu_active" className="nav-link active" to="about">about</NavLink >
         </li>
         <li className="nav-item">
-          <NavLink activeClassName="menu_active" className="nav-link" to="contact">contact</NavLink >
+          <NavLink activeClassName="menu_active" className="nav-link active " to="contact">contact</NavLink >
         </li>
       </ul>
     </div>
