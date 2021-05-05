@@ -1,6 +1,4 @@
 import React from 'react';
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
 import './App.css';
 import Home from './Components/Home';
 import {
@@ -22,7 +20,7 @@ function App() {
           <Route exact path="/home" component={Home}></Route>
           <Route exact path="/about" component={About}></Route>
           <Route exact path="/Services" component={Services}></Route>
-          <Route exact path="/contacts" component={Contact}></Route>
+          <Route exact path="/contact" component={Contact}></Route>
           <Redirect to="/"></Redirect>
       </Switch>
     </Router>
