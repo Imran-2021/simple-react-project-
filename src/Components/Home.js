@@ -1,11 +1,15 @@
 import React from 'react';
-
+import "./Home.css"
+import Common from './Common';
 const Home = () => {
     return (
-        <div>
-            <h4>home page</h4>
-            <p>this is imranul haque. a very simply guy...</p>
-        </div>
+        <>
+            <Common
+                name="Grow your business with" 
+                imagescr="https://pbs.twimg.com/media/DqMnM7kWoAAjYjg.jpg" 
+                visit="/services" btname="Get Started"
+            />
+        </>
     );
 };
 
